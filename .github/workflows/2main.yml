@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add funny comment
-        uses: Marta83/funny-comment-cation@v2.1
+        uses: Marta83/funny-comment-action@v2.1
         id: FunnyComment
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
